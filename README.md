@@ -21,9 +21,9 @@
 
 # 🏃 Getting Started
 
-Add this initial template using this following command:
+Clone this repository
+```git clone git@github:r3nanp/letmeask.git```
 
-```npx create-next-app -e git@github.com:r3nanp/letmeask.git```
 
 Run the following command in order to start the application in a development environment:
 
