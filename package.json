@@ -1,20 +1,14 @@
 {
-  "name": "next-boilerplate",
+  "name": "letmeask",
   "version": "0.1.0",
   "private": true,
   "author": "Renan Pereira <renanmol87@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/r3nanp/next-boilerplate.git"
+    "url": "https://github.com/r3nanp/letmeask.git"
   },
-  "keywords": [
-    "react",
-    "next",
-    "boilerplate",
-    "r3nanp-boilerplate"
-  ],
   "bugs": {
-    "url": "https://github.com/r3nanp/next-boilerplate/issues"
+    "url": "https://github.com/r3nanp/letmeask/issues"
   },
   "engines": {
     "node": ">=12.x"
@@ -36,7 +30,9 @@
     ]
   },
   "dependencies": {
+    "firebase": "^8.6.8",
     "next": "^11.0.0",
+    "next-auth": "^3.27.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "styled-components": "^5.3.0"
@@ -72,6 +68,6 @@
     "prettier": "^2.2.1",
     "ts-jest": "^26.5.6",
     "ts-node": "^9.1.1",
-    "typescript": "^4.2.4"
+    "typescript": "^4.3.4"
   }
 }
