@@ -1,4 +1,4 @@
-import { ReactElement, ReactNode } from 'react'
+import { ReactNode } from 'react'
 
 import * as S from './styles'
 
@@ -12,7 +12,7 @@ export function Heading({
   children,
   color = 'white',
   size = 'medium'
-}: HeadingProps): ReactElement {
+}: HeadingProps) {
   return (
     <S.Container color={color} size={size}>
       {children}
