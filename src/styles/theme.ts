@@ -1,7 +1,7 @@
 export const theme = {
   font: {
-    family:
-      "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+    family: 'Roboto, sans-serif, -apple-system',
+    heading: 'Poppins, sans-serif',
     light: 300,
     normal: 400,
     bold: 600,
@@ -26,8 +26,22 @@ export const theme = {
   },
   colors: {
     white: '#FAFAFA',
-    black: '#030517',
-    primary: '#f1f2f5'
+    black: '#29292E',
+    gray: {
+      light: '#DBDCDD',
+      medium: '#A8A8B3',
+      dark: '#737380'
+    },
+    pink: {
+      light: '#D67EE2',
+      dark: '#E559F9'
+    },
+
+    background: '#F8F8F8',
+    details: '#FEFEFE',
+    shadow: '#050206',
+    purple: '#835AFD',
+    danger: '#E73F5D'
   },
   layers: {
     base: 10,
@@ -40,6 +54,7 @@ export const theme = {
     magical:
       'rgba(0, 0, 0, 0.02) 0px 30px 30px, rgba(0, 0, 0, 0.03) 0px 0px 8px, rgba(0, 0, 0, 0.05) 0px 1px 0px'
   },
+  gradient: 'linear-gradient(139.44deg, #485BFF 0%, #FF59F8 96.19%)',
   transition: {
     default: '0.3s ease-in-out',
     fast: '0.1s ease-in-out'

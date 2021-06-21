@@ -53,7 +53,7 @@ export const GlobalStyles: GlobalStyleComponent<
 
   html, body {
     ${({ theme }) => css`
-      background: ${theme.colors.primary};
+      background: ${theme.colors.background};
       font-weight: ${theme.font.normal};
       font-family: ${theme.font.family};
       font-size: ${theme.font.sizes.xsmall};
