@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { SEO } from '@components/SEO'
 import { Button } from '@components/Button'
 
-import * as S from '@styles/app'
+import * as S from '@styles/home'
 import logoImg from '../../public/images/logo.svg'
 import illustrationImg from '../../public/images/illustration.svg'
 import googleIconImg from '../../public/images/google-icon.svg'
