@@ -21,7 +21,8 @@
 
 # 🏃 Getting Started
 
-Clone this repository
+Clone this repository:
+
 ```git clone git@github:r3nanp/letmeask.git```
 
 
