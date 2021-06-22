@@ -51,12 +51,19 @@ export const GlobalStyles: GlobalStyleComponent<
     }
   }
 
-  html, body {
     ${({ theme }) => css`
-      background: ${theme.colors.background};
-      font-weight: ${theme.font.normal};
-      font-family: ${theme.font.family};
-      font-size: ${theme.font.sizes.xsmall};
+      body {
+        background: ${theme.colors.background};
+        color: ${theme.colors.black};
+      }
+
+      body,
+      input,
+      button,
+      textarea {
+        font-weight: ${theme.font.normal};
+        font-family: ${theme.font.family};
+        font-size: ${theme.font.sizes.xsmall};
+      }
     `}
-  }
 `
